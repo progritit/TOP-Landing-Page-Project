@@ -1,0 +1,210 @@
+:root {
+    --dark-bg: #1F2937;
+    --hero-main: #F9FAF8;
+    --hero-secondary: #E5E7EB;
+    --button-blue: #3882F6;
+    --quote-bg: #E5E7EB;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--dark-bg);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.hero {
+    min-height: 475px;
+    background: var(--dark-bg);
+}
+
+.nav {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--hero-main);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--hero-secondary);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding-top: 82px;
+}
+
+.hero-text {
+    width: 430px;
+}
+
+.hero-text h1 {
+    color: var(--hero-main);
+    font-size: 48px;
+    line-height: 1.05;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.hero-text p {
+    color: var(--hero-secondary);
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+button {
+    background: var(--button-blue);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 465px;
+    height: 220px;
+    background: #777e86;
+    color: var(--hero-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.information {
+    min-height: 440px;
+    background: white;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-bg);
+    margin-bottom: 46px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid var(--button-blue);
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.1;
+    color: #3f4855;
+}
+
+.quote-section {
+    min-height: 380px;
+    background: var(--quote-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-wrap {
+    width: 770px;
+}
+
+.quote {
+    font-size: 36px;
+    line-height: 1.18;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--dark-bg);
+}
+
+.author {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 8px;
+    padding-right: 38px;
+}
+
+.cta-section {
+    min-height: 310px;
+    display: flex;
+    align-items: center;
+}
+
+.cta {
+    width: 960px;
+    background: var(--button-blue);
+    border-radius: 8px;
+    padding: 46px 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.cta h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta p {
+    font-size: 18px;
+    color: var(--hero-secondary);
+}
+
+.cta button {
+    border: 2px solid white;
+    padding: 7px 34px;
+}
+
+footer {
+    height: 92px;
+    background: var(--dark-bg);
+    color: var(--hero-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
