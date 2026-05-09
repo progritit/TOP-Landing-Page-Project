@@ -1,32 +1,41 @@
+/* 
+  Global design tokens.
+  CSS variables make colors easier to reuse and maintain.
+*/
 :root {
-    --dark-bg: #1F2937;
-    --hero-main: #F9FAF8;
-    --hero-secondary: #E5E7EB;
-    --button-blue: #3882F6;
-    --quote-bg: #E5E7EB;
+    --dark-bg: #111827;
+    --hero-main: #FAF7F2;
+    --hero-secondary: #D6D3D1;
+    --button-blue: #C8A97E;
+    --quote-bg: #EFEAE3;
 }
 
+/* Reset default spacing and make sizing more predictable */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Base page typography */
 body {
     font-family: "Roboto", sans-serif;
     color: var(--dark-bg);
 }
 
+/* Shared centered layout wrapper */
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
 
+/* Hero/header area */
 .hero {
     min-height: 475px;
     background: var(--dark-bg);
 }
 
+/* Top navigation layout */
 .nav {
     height: 64px;
     display: flex;
@@ -34,12 +43,14 @@ body {
     align-items: center;
 }
 
+/* Site logo styling */
 .logo {
     color: var(--hero-main);
     font-size: 24px;
     font-weight: 900;
 }
 
+/* Header link list */
 .nav-links {
     display: flex;
     gap: 28px;
@@ -52,6 +63,7 @@ body {
     text-decoration: none;
 }
 
+/* Two-column hero layout */
 .hero-content {
     display: flex;
     justify-content: space-between;
@@ -60,6 +72,7 @@ body {
     padding-top: 82px;
 }
 
+/* Hero text column */
 .hero-text {
     width: 430px;
 }
@@ -79,6 +92,7 @@ body {
     margin-bottom: 14px;
 }
 
+/* Shared button base style */
 button {
     background: var(--button-blue);
     color: white;
@@ -90,17 +104,22 @@ button {
     cursor: pointer;
 }
 
+/* Hero image placeholder */
 .hero-image {
-    width: 465px;
-    height: 220px;
-    background: #777e86;
-    color: var(--hero-main);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
+    width: 520px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Information cards section */
 .information {
     min-height: 440px;
     background: white;
@@ -115,22 +134,33 @@ button {
     margin-bottom: 46px;
 }
 
+/* Card row layout */
 .cards {
     display: flex;
     justify-content: center;
     gap: 46px;
 }
 
+/* Individual card */
 .card {
     width: 150px;
 }
 
+/* Square illustration placeholder */
 .card-box {
     width: 150px;
     height: 150px;
     border: 4px solid var(--button-blue);
     border-radius: 14px;
     margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.card-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .card p {
@@ -139,6 +169,7 @@ button {
     color: #3f4855;
 }
 
+/* Quote/testimonial section */
 .quote-section {
     min-height: 380px;
     background: var(--quote-bg);
@@ -147,6 +178,7 @@ button {
     justify-content: center;
 }
 
+/* Keeps quote text aligned to the reference width */
 .quote-wrap {
     width: 770px;
 }
@@ -167,12 +199,14 @@ button {
     padding-right: 38px;
 }
 
+/* Call-to-action section wrapper */
 .cta-section {
     min-height: 310px;
     display: flex;
     align-items: center;
 }
 
+/* Blue CTA banner */
 .cta {
     width: 960px;
     background: var(--button-blue);
@@ -194,11 +228,13 @@ button {
     color: var(--hero-secondary);
 }
 
+/* CTA button uses an outlined variation */
 .cta button {
     border: 2px solid white;
     padding: 7px 34px;
 }
 
+/* Footer */
 footer {
     height: 92px;
     background: var(--dark-bg);
