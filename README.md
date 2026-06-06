@@ -1,6 +1,9 @@
 # TOP-Landing-Page-Project
 https://progritit.github.io/TOP-Landing-Page-Project/
 
+<img width="1919" height="934" alt="image" src="https://github.com/user-attachments/assets/4be397f2-ffa2-4e5c-a7d6-49b7de018db7" />
+
+
 # Aurelium Landing Page
 
 A premium luxury interior design landing page built with pure HTML and CSS.
