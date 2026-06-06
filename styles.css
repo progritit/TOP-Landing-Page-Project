@@ -273,11 +273,58 @@ footer {
     min-height: 92px;
     background: var(--dark-bg);
     color: var(--hero-secondary);
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
     text-align: center;
     padding: 24px 16px;
     font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-year {
+    color: #f3c85f;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.social-link {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hero-secondary);
+    text-decoration: none;
+    border-radius: 50%;
+    transition: color 180ms ease, transform 180ms ease;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+/* Important: force the SVG paths to use the link color */
+.social-icon path {
+    fill: currentColor;
 }
 
 /* Tablet and small-screen layout adjustments */
