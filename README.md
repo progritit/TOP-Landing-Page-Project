@@ -1,59 +1,67 @@
-# TOP-Landing-Page-Project
-https://progritit.github.io/TOP-Landing-Page-Project/
-
-<img width="1919" height="934" alt="image" src="https://github.com/user-attachments/assets/4be397f2-ffa2-4e5c-a7d6-49b7de018db7" />
-
-
 # Aurelium Landing Page
 
-A premium luxury interior design landing page built with pure HTML and CSS.
+[Live Demo](https://progritit.github.io/TOP-Landing-Page-Project/)
 
-This project was developed as part of **The Odin Project** curriculum and later transformed into a high-end portfolio piece focused on luxury branding, clean layouts, and responsive frontend design principles.
+<img width="1919" height="934" alt="Aurelium Landing Page preview" src="https://github.com/user-attachments/assets/4be397f2-ffa2-4e5c-a7d6-49b7de018db7" />
+
+A premium luxury interior design landing page built with HTML and CSS.
+
+This project was developed as part of **The Odin Project** curriculum and later refined into a portfolio-oriented landing page focused on visual hierarchy, clean layout structure, luxury branding, and responsive front-end presentation.
 
 ---
 
 ## Preview
 
 The page showcases:
-- A modern hero section
-- Elegant navigation layout
-- Luxury interior imagery
-- Information cards with custom images
-- Testimonial section
-- Call-to-action banner
-- Footer
+
+* A modern hero section
+* Elegant navigation layout
+* Luxury interior imagery
+* Information cards with custom images
+* Testimonial section
+* Call-to-action banner
+* Footer
 
 ---
 
 ## Built With
 
-- HTML5
-- CSS3
-- Flexbox
-- Google Fonts (Roboto)
+* HTML5
+* CSS3
+* Flexbox
+* CSS variables
+* Google Fonts
+* Git and GitHub
+* GitHub Pages
 
 ---
 
 ## Features
 
 ### Layout & UI
-- Semantic HTML structure
-- Responsive flexbox layouts
-- Consistent spacing system
-- Reusable CSS utility structure
-- CSS variables for color management
+
+* Semantic HTML structure
+* Responsive layout foundations
+* Flexbox-based sections
+* Consistent spacing system
+* Reusable CSS structure
+* Clean visual hierarchy
 
 ### Design
-- Luxury-inspired visual identity
-- Neutral warm color palette
-- Rounded image cards
-- Modern typography hierarchy
-- Elegant CTA section
+
+* Fictional luxury interior design brand
+* Neutral warm color palette
+* Modern typography hierarchy
+* Rounded image cards
+* Elegant call-to-action section
+* Portfolio-focused visual presentation
 
 ### Image Handling
-- Responsive image containers
-- `object-fit: cover` image scaling
-- Rounded image clipping with `overflow: hidden`
+
+* Responsive image containers
+* `object-fit: cover` image scaling
+* Rounded image clipping with `overflow: hidden`
+* Relative asset paths for GitHub Pages compatibility
 
 ---
 
@@ -79,25 +87,29 @@ TOP-Landing-Page-Project/
 
 This version of the project was redesigned around a fictional luxury interior design studio named **Aurelium**.
 
-The objective was to create a visually refined landing page capable of:
-- Demonstrating frontend fundamentals
-- Showcasing visual hierarchy
-- Simulating a real-world client project
-- Elevating portfolio presentation quality
+The objective was to transform a foundational landing page exercise into a more refined portfolio piece capable of:
+
+* Demonstrating HTML and CSS fundamentals
+* Applying visual hierarchy and spacing principles
+* Simulating a real-world client landing page
+* Presenting a stronger brand direction
+* Improving overall portfolio quality
 
 ---
 
 ## Key Learning Outcomes
 
 This project helped reinforce:
-- Semantic HTML structure
-- CSS organization and maintainability
-- Flexbox layouts
-- Image scaling techniques
-- Typography systems
-- UI spacing and alignment
-- Portfolio-oriented visual design
-- Debugging image overflow and layout issues
+
+* Semantic HTML structure
+* CSS organization and maintainability
+* Flexbox layout techniques
+* Image scaling and cropping
+* Typography hierarchy
+* UI spacing and alignment
+* Debugging layout overflow issues
+* Managing relative paths for deployment
+* Building a more polished visual identity from a basic project brief
 
 ---
 
@@ -109,8 +121,8 @@ A large hero image initially broke the layout and covered the navigation.
 
 ### Solution
 
-- Constrained the image container dimensions
-- Applied:
+* Constrained the image container dimensions
+* Applied image scaling and overflow control
 
 ```css
 object-fit: cover;
@@ -125,8 +137,8 @@ Images originally rendered outside the card boxes.
 
 ### Solution
 
-- Nested `<img>` tags inside `.card-box`
-- Applied:
+* Nested `<img>` tags inside `.card-box`
+* Applied consistent sizing and cropping rules
 
 ```css
 .card-box img {
@@ -144,9 +156,9 @@ The project initially failed to render images correctly after deployment.
 
 ### Solution
 
-- Replaced absolute local file paths with relative paths
-- Renamed files for cleaner portability
-- Corrected project asset structure for GitHub Pages compatibility
+* Replaced absolute local file paths with relative paths
+* Renamed files for cleaner portability
+* Corrected the project asset structure for GitHub Pages compatibility
 
 Example:
 
@@ -160,46 +172,27 @@ Example:
 
 ---
 
-## AI-Assisted Workflow
+## Development Workflow
 
-This project was developed using a modern AI-assisted workflow.
+This project was built through a hands-on learning process using HTML and CSS.
 
-### Tools Used
+AI tools were used as learning and productivity assistants for brainstorming, visual direction, debugging support, and documentation refinement. The final code was reviewed, adapted, tested, and integrated manually, with a focus on understanding the structure, styling decisions, and layout behavior behind the implementation.
 
-#### ChatGPT
-Assisted with:
-- Code structure guidance
-- CSS debugging
-- Layout troubleshooting
-- Frontend best practices
-- UI/UX improvement suggestions
-- README drafting
-- Portfolio content ideation
-
-#### Google Gemini
-Assisted with:
-- Luxury interior image generation
-- Visual inspiration
-- Creative direction exploration
-
-### Development Approach
-
-AI tools were used as collaborative assistants throughout the project, while all implementation decisions, integration, customization, debugging, and final design direction were handled manually.
-
-This workflow reflects modern frontend development practices where AI accelerates iteration, problem-solving, and creative exploration.
+This workflow reflects a modern approach to learning web development: using available tools strategically while staying responsible for the final result.
 
 ---
 
 ## Future Improvements
 
 Potential future enhancements:
-- Mobile responsiveness
-- CSS animations and hover effects
-- Dark/light theme toggle
-- Fully responsive navigation menu
-- Accessibility improvements
-- Performance optimization
-- Deployment with GitHub Pages custom domain
+
+* Improve mobile responsiveness
+* Add CSS animations and hover effects
+* Add a fully responsive navigation menu
+* Improve accessibility checks
+* Optimize image performance
+* Add a custom favicon
+* Refine the design system with more reusable classes
 
 ---
 
@@ -207,20 +200,22 @@ Potential future enhancements:
 
 **Clebson Costa**
 
-Frontend development student focused on:
-- Clean UI implementation
-- Responsive layouts
-- Modern frontend practices
-- Portfolio-quality projects
+Front-end development student focused on:
+
+* Clean UI implementation
+* Responsive layouts
+* HTML and CSS fundamentals
+* Modern front-end practices
+* Portfolio-quality projects
 
 ---
 
 ## Acknowledgements
 
-- The Odin Project
-- Google Fonts
-- ChatGPT for development support and debugging assistance
-- Google Gemini for luxury visual generation and creative inspiration
+* The Odin Project
+* Google Fonts
+* ChatGPT for learning support, debugging assistance, and documentation refinement
+* Google Gemini for visual direction exploration
 
 ---
 
